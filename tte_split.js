@@ -109,7 +109,7 @@ var simulation = d3.forceSimulation()
 
 
 d3.queue()
-  .defer(d3.csv, "steve/data/adtte.csv")
+  .defer(d3.csv, "src/adtte.csv")
   .await(ready)
 
 function ready (error, datapoints) {
